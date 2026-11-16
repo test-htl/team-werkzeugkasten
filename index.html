@@ -3,19 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Zähler – Team-Werkzeugkasten</title>
-  <link rel="stylesheet" href="../../style.css">
+  <title>Team-Werkzeugkasten</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <p><a href="../../index.html">Zurück zur Übersicht</a></p>
-  <h1>Zähler</h1>
+  <header>
+    <h1>Team-Werkzeugkasten</h1>
+    <p id="slogan">Kleine Werkzeuge, gebaut von unserem Team.</p>
+  </header>
 
-  <p class="ausgabe" id="stand" aria-live="polite">0</p>
+  <main>
+    <h2>Unsere Werkzeuge</h2>
+    <ul id="werkzeuge">
+      <li><a href="tools/zaehler/index.html">Zähler</a> – das fertige Beispiel</li>
+    </ul>
+  </main>
 
-  <button type="button" id="minus">Minus 1</button>
-  <button type="button" id="plus">Plus 1</button>
-  <button type="button" id="reset">Zurücksetzen</button>
-
-  <script src="script.js"></script>
+  <footer>
+    <p>Übungsprojekt Scrum mit GitHub</p>
+  </footer>
 </body>
 </html>
